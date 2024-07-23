@@ -1,0 +1,154 @@
+<style>
+.pf-main-form {
+font-family:"B Koodak",Tahoma,"Microsoft Sans Serif",sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+
+}
+.ms-webpartzone-cell {
+    margin: auto auto 0px !important;
+}
+.pf-toolbar-button {
+    border: solid 1px #ffffff !important;
+    font-size: 9px !important;
+    margin-left: 2px !important;
+    margin-bottom: 4px !important;
+    height: 30px !important;
+    width: 70px !important;
+    padding-bottom: 25px !important;
+}
+.k-panelbar .k-tabstrip>.k-content, .k-tabstrip>.k-content {
+    margin: 0  !important;
+    border-width: 0px 4px 4px 4px !important;
+}
+
+.k-active-filter, .k-state-active, .k-state-active:hover, .k-tabstrip .k-state-active {
+    border-color:  #616975 !important;
+}
+
+.k-tabstrip-items {
+    padding: 0 .3em 0;
+  /* background:linear-gradient(to bottom, #444444 0%,#636363 51%,#919191 100%); */
+    background:  #616975 !important;
+}
+
+.k-state-default>.k-link{
+ color:  #a90329 !important;
+    font-weight: bold;
+    background-color:#dfe1e4;
+    pading-left:1px;
+    text-align: center;
+    height: 20px;
+    margin-left: 2px;
+    font-size: 14px !important;
+}
+
+ .k-state-active>.k-link {
+   /* color: #00121e !important;*/
+    color:  #a90329 !important;
+    border-bottom: 3px solid #ffffff !important;
+    font-weight: bold;
+    background-color: #ffffff;
+    padding-left:1px;
+    text-align: center;
+    height: 20px;
+    margin-left: 2px;
+    font-size: 14px !important;
+
+}
+
+.k-tabstrip-items .k-loading {
+
+ border-top: 0px solid transparent !important;
+
+}
+
+
+.k-textbox > input, .k-autocomplete .k-input, .k-picker-wrap .k-input, .k-numeric-wrap .k-input, .k-dropdown-wrap .k-input, .k-selectbox .k-input{
+
+  height:24px !important;
+  font-weight: bold !important;
+  text-align: right !important;
+  background-color:  !important;
+}
+.k-autocomplete.k-state-default, .k-dropdown-wrap.k-state-default, .k-numeric-wrap.k-state-default, .k-picker-wrap.k-state-default {
+
+    border: 2px solid  #00121e !important;
+}
+
+
+.k-button {
+    border-radius: 50% !important;
+    padding-bottom: revert !important;
+}
+
+input[type=button]{
+    border-radius: 0% !important;
+    background-color: #a90329; !important;
+    color: #ffffff !important;
+    font-family:"B Koodak",Tahoma,"Microsoft Sans Serif",sans-serif !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+}
+.k-button.pf-lookuppicker-button {
+    background-color: #a90329; !important;
+}
+.k-ie8 .k-upload-button, .k-ie9 .k-upload-button, .k-upload-sync .k-upload-button {
+    margin: .2em !important;
+    background-color: #06fcd7!important;
+    border-radius: 0px !important;
+    color: #2d017c !important;
+}
+
+.k-rtl .k-grid-header .k-header {
+    text-align: center !important;
+
+}
+
+.k-grid-header-wrap.k-auto-scrollable th {
+    background-color: gray !important;
+    height: 5px !important;
+
+}
+.k-grid-header-wrap.k-auto-scrollable a {
+    color: #ffffff !important;
+}
+div#MSOZoneCell_WebPartWPQ2{
+    background-color: #ffffff !important;
+    border: none !important;
+
+}
+/****************************/
+
+#C_Example {
+font-family:"Microsoft Sans Serif",sans-serif !important;
+    border: solid 1px #616975 !important;
+    padding:10px !important;
+    border-radius: 10px;
+}
+#c_NumerT{
+font-family:"Microsoft Sans Serif",sans-serif !important;
+    text-align: left!important;
+}
+#C_Example2 {
+font-family:"Microsoft Sans Serif",sans-serif !important;
+    text-align: left!important;
+    color: red !important;
+
+}
+
+#c_Save2,#c_Save{
+    border-radius: 30px !important;
+}
+
+#c_Control1 {
+    margin-bottom: 10px;
+}
+.k-widget.k-upload.k-header.k-upload-sync.k-upload-empty {
+    margin-left: 5px;
+    border: none;
+}
+
+</style>

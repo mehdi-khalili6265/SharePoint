@@ -1,0 +1,21 @@
+<style>
+a#idHomePageNewItem {
+    padding-right: 20px;
+    /* border: 1px solid #727272 !important; */
+    border-radius: 50px;
+    background-color: #35afe3;
+    padding-left: 10px;
+    margin-right: 20px;
+    color: #ffffff;
+    padding-right: 8px;
+}
+span.ms-list-addnew-imgSpan20 {
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+img#idHomePageNewItem-img {
+    opacity: 0.5;
+}
+
+</style>
+

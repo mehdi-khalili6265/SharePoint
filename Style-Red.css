@@ -1,0 +1,339 @@
+.o365cs-nav-brandingText {
+    visibility: hidden;  
+}
+#siteIcon{
+
+}
+
+#contentRow {
+    padding-top: 20px !important;
+}
+.ms-breadcrumb-top {
+    padding-top: 30px;
+}
+
+.ms-breadcrumb-box {
+    padding-right: 100px !important;
+}
+.ms-webpart-titleText {
+    padding-top: 50px !important;
+}
+.ms-mpSearchBox {
+    visibility: hidden;
+}
+.ms-core-navigation{
+	
+	font-family: "B Koodak",Tahoma,"Microsoft Sans Serif",sans-serif;
+}
+
+.o365cs-base.o365spo .o365cs-topnavBGColor-2, .o365cs-base.o365spo.o365cs-topnavBGColor-2, #O365_NavHeader.o365spo.o365cs-topnavBGColor-2 ,
+.o365cs-nav-header16 .o365cs-nav-rightAlign .o365cs-nav-button,
+.o365cs-base.o365spo .ms-bgc-tp, .o365cs-base.o365spo .ms-bgc-tp-h:hover, .o365cs-base.o365spo.ms-bgc-tp{
+    background:linear-gradient(to bottom, #444444 0%,#636363 51%,#919191 100%) !important;
+background: #444444; /* Old browsers */
+
+
+}
+
+.ms-cui-topBar2 {
+    background-color:  #a90329;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #70041d;
+    -moz-box-shadow: inset 0px 1px 0px 0px #70041d;
+    box-shadow: inset 0px 1px 0px 0px #70041d;
+    border-bottom: 1px solid #70041d;
+    color: #ffffff !important;
+}
+
+.ms-promotedActionButton-text  {
+    color:#ffffff !important;
+}
+.ms-cui-tt-a > .ms-cui-tt-span {
+    color: #ffffff !important;
+}
+.ms-browseTab.ms-cui-tt-s > .ms-cui-tt-a > .ms-cui-tt-span{
+    color: #ffffff !important;
+}
+.ms-cui-cg-db.ms-cui-cg {
+    border-top-color: #ffffff;
+}
+/***اسم سایت***/
+ .ms-core-listMenu-horizontalBox {
+ visibility: hidden;
+}
+.ms-siteicon-img {
+    padding-right: 60px;
+}
+
+/***Hide Mohtava***/
+.ms-splinkbutton-text {
+    visibility: hidden;  
+}
+
+/***menu***/
+
+.ms-core-listMenu-verticalBox > .ms-core-listMenu-root > li > .ms-core-listMenu-item{
+    background-color: #616975;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(114, 122, 134)),to(rgb(80, 88, 100)));
+    background-image: -webkit-linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    background-image: -moz-linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    background-image: -o-linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    background-image: -ms-linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    background-image: linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#727a86', EndColorStr='#505864');
+    border-bottom: 1px solid #33373d;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #878e98;
+    -moz-box-shadow: inset 0px 1px 0px 0px #878e98;
+    box-shadow: inset 0px 1px 0px 0px #878e98;
+      height: 28px;
+      font-weight:bold;
+      font-weight: 600 !important;
+     /* font-family:'IRANSansWeb', tahoma !important;*/
+      font-family: "B Koodak",Tahoma,"Microsoft Sans Serif",sans-serif !important;
+      color: #ffffff;
+      font-size:14px !important;
+      line-height: 25px;
+
+}
+
+/***menu hover***/
+
+
+.ms-core-listMenu-verticalBox > .ms-core-listMenu-root > li > .ms-core-listMenu-item:hover, 
+.ms-core-listMenu-verticalBox > .ms-core-listMenu-root > li > .ms-core-listMenu-item.active {
+background: #a90329; /* Old browsers */
+background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* IE10+ */
+background: linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+.ms-core-listMenu-verticalBox li.static>ul.static li>a:hover {
+background: #a90329; /* Old browsers */
+background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* IE10+ */
+background: linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+    color: #ffffff;
+}
+
+/***box under menu***/
+.ms-core-listMenu-verticalBox li.static>ul.static{
+     background: #eee;
+      font-weight: 600 !important;
+     /* font-family:'IRANSansWeb', tahoma !important;*/
+      font-family: "B Koodak",Tahoma,"Microsoft Sans Serif",sans-serif !important;
+      color: #ffffff;
+      font-size:14px !important;
+     line-height: 28px;
+     list-style-type: none;
+     overflow: hidden;
+     padding: 0px;
+}
+
+/***under menu***/
+.ms-core-listMenu-verticalBox li.static>ul.static>li{
+    background: #fff;
+    border-bottom: 1px solid #efeff0;
+    color: #ffffff;
+   font-size:14px;
+
+}
+
+.ms-core-listMenu-root > li > a:after {
+     content: '❯';
+      /*   content: '◀'; */
+    color: #ffffff;
+    position: absolute;
+    right: 200px;
+   font-size:14px !important;
+    -moz-transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
+}
+
+.ms-core-listMenu-verticalBox > .ms-core-listMenu-root > li > .ms-core-listMenu-item.active:after {
+     content: '❯';
+      /*   content: '◀'; */
+      /*   content: '▼'; */
+    color: #ffffff;
+    position: absolute;
+    right: 200px;
+   font-size:14px !important;
+    -moz-transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
+    -moz-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+    transform:rotate(-90deg);
+}
+/**غیر فعال کردن لینک  ها**/
+.ms-core-listMenu-selected:link, .ms-core-listMenu-selected:visited, .ms-core-listMenu-selected {
+     background-color:#ffffff !important; 
+
+}
+
+
+/**list**/
+
+
+.ms-core-pageTitle a {
+    color: #ffffff;
+    background-color: #a90329;
+    margin-right: 110px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 9px;
+}
+
+th a {
+    color: #ffffff !important;
+    text-align: center !important;
+    font-weight: bold !important;
+    font-size: 14px!important;
+}
+.ms-core-menu-list a{
+    color: black !important;
+}
+
+.ms-headerCellStyleIcon.ms-vh-icon, .ms-vh-icon.ms-minWidthHeader{
+background-color:#a90329 !important;
+}
+.ms-vh-icon {
+background-color: #f8f8f8 !important;
+border:none !important;
+}
+th{
+    background-color: #a90329 !important;
+    color: #ffffff !important;
+    border-bottom: 1px solid #cecece !important;
+    height: 25px !important;
+    padding: 10px !important;
+    text-align: center !important;
+    border-left: 1px solid #cecece !important;
+    border-right: 1px solid #cecece !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+
+.ms-listviewtable .ms-alternating {
+background-color: #e1e2e4;
+}
+
+.ms-listviewtable td {
+    border: 1px solid #cecece !important;
+}
+th.ms-listedit-listinfo {
+    background-color: #ffffff !important;
+}
+
+/*********منو آیتم ها 1**********/
+
+
+.ms-csrlistview-controldiv {
+    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-right: 25px;
+}
+.ms-InlineSearch-Outline-Baseline {
+height: 32px !important;
+    border-radius: 7px !important;
+}
+/*********منو آیتم ها backgrand**********/
+/*.ms-fullWidth {
+background-color: #ffebf0;
+}*/
+table#Hero-WPQ2.ms-fullWidth{
+    background-color: #f8f8f8 !important;
+    border-radius: 10px !important;
+}
+/*.ms-webpart-zone{
+background-color: #f8f8f8 !important;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 15px !important;
+}*/
+
+div#MSOZoneCell_WebPartWPQ2 {
+    background-color: #f8f8f8 !important;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+.ms-informationbar {
+    background-color: #ffebf0 !important;
+    border: none !important;
+    border-radius: 10px !important;
+}
+/*********منو آیتم ها backgrand**********/
+.ms-pivotControl-surfacedOpt:hover, .ms-pivotControl-overflowDot:hover, .ms-pivotControl-surfacedOpt-selected {
+    color: #a90329;
+}
+/*********منو آیتم ها 2**********/
+.ms-list-addnew {
+    padding-bottom: 15px;
+    padding-top: 30px !important;
+
+}
+
+a#idHomePageNewItem {
+    padding-right: 20px;
+}
+.ms-heroCommandLink, .ms-heroCommandLink:visited {
+    color: #a90329;
+}
+
+button#QCB1_Button1 {
+    content-visibility: hidden;
+}
+button#QCB1_Button2 {
+    background-color: darkgray;
+    border-radius: 50px;
+    color: #ffffff !important;
+}
+button#QCB1_Button3 {
+    visibility: hidden;
+}
+button#QCB1_Button4 {
+    visibility: hidden;
+}
+button#QCB1_Button5{
+ visibility: hidden;
+}
+.ms-core-form-heading {
+    color: #a90329;
+}
+/*********جدول**********/
+
+
+table.ms-listviewtable {
+    padding-right: 20px;
+    padding-top: 10px !important;
+    padding-right: 20px;
+}
+a, .ms-link:visited {
+    color: #a90329;
+    text-decoration: none;
+}
+.ms-metadata, .ms-descriptiontext {
+    color: #a90329;
+}
+
+.ms-fileField-fileExt {
+    padding-right: 10px;
+    padding-left: 5px;
+    display: none !important;
+}
+div#DatePickerDiv th {
+    padding: 0px !important;
+}
+/*********Nintex**********/
+span.StateLabel {
+    color: #ffffff !important;
+}

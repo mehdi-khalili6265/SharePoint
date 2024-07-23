@@ -1,0 +1,42 @@
+
+<style>
+/************عرض ستون************/
+
+th[Title='نام و نام خانوادگی'],th.ms-vh2-nofilter div[DisplayName='نام و نام خانوادگی'],th.ms-vh2 div[DisplayName='نام و نام خانوادگی']{
+    min-width:100px!important;
+    width:100px!important;
+}
+th[Title='تایید مالی'],th.ms-vh2-nofilter div[DisplayName='تایید مالی'],th.ms-vh2 div[DisplayName='تایید مالی']{
+    min-width:60px!important;
+    width:60px!important;
+}
+th[Title='تعداد روزهای استخدام'],th.ms-vh2-nofilter div[DisplayName='تعداد روزهای استخدام'],th.ms-vh2 div[DisplayName='تعداد روزهای استخدام']{
+    min-width:30px!important;
+    width:30px!important;
+    text-align:center; 
+}
+th[Title='سال درخواست'],th.ms-vh2-nofilter div[DisplayName='سال درخواست'],th.ms-vh2 div[DisplayName='سال درخواست']{
+    min-width:30px!important;
+    width:30px!important;
+}
+th[Title='ماه درخواست'],th.ms-vh2-nofilter div[DisplayName='ماه درخواست'],th.ms-vh2 div[DisplayName='ماه درخواست']{
+    min-width:30px!important;
+    width:30px!important;
+}
+th[Title='کد پرسنلی'],th.ms-vh2-nofilter div[DisplayName='کد پرسنلی'],th.ms-vh2 div[DisplayName='کد پرسنلی']{
+    min-width:30px!important;
+    width:30px!important;
+}
+</style>
+
+<style type="text/css">
+/************Wrap Text************/
+
+.ms-vh, .ms-vh2-nofilter, .ms-vh2-nograd, .ms-vh2, .ms-vb
+{
+white-space: normal;
+text-align:center; 
+vertical-align:text-bottom;
+color:red;
+}
+</style>

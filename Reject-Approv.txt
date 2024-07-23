@@ -1,0 +1,58 @@
+function callbackItem(e) {
+debugger
+    var error = e.ErrorMessage;
+	if (error != null)
+	{
+		alert("error");
+		return;
+	}
+    var newItem = e.ListItem;
+		if (newItem.ID > -1) {
+			form.SaveAndExit();
+    }
+}
+
+// Update Parent Task by query string
+var item = new Object();
+//item.ID = form.RequestValue('ParentID');
+item.ID = form.GetControl("c_TaskID").GetValue();
+if (item.ID == "") alert("کویری استرینگ مربوطه برای بروز رسانی وظیفه مورد نظر مقدار دهی نشده است");
+else {
+debugger
+    
+    item._x0648__x0636__x0639__x06cc__x060 = "تایید درخواست" ;
+   // item.Status = "کامل شده";
+     item.Status = "تکمیل شده" ; 
+    //item.SDesc = form.GetControl("c_SDesc").GetValue();
+    form.SaveRecord(_spPageContextInfo.webAbsoluteUrl, "وظایف فرایند", item, callbackItem);
+}
+***********************************************
+
+function callbackItem(e) {
+debugger
+    var error = e.ErrorMessage;
+	if (error != null)
+	{
+		alert("error");
+		return;
+	}
+    var newItem = e.ListItem;
+		if (newItem.ID > -1) {
+			form.SaveAndExit();
+    }
+}
+
+// Update Parent Task by query string
+var item = new Object();
+//item.ID = form.RequestValue('ParentID');
+item.ID = form.GetControl("c_TaskID").GetValue();
+if (item.ID == "") alert("کویری استرینگ مربوطه برای بروز رسانی وظیفه مورد نظر مقدار دهی نشده است");
+else {
+debugger
+    
+    item._x0648__x0636__x0639__x06cc__x060 = "رد درخواست" ;
+   // item.Status = "کامل شده";
+     item.Status = "تکمیل شده" ; 
+    //item.SDesc = form.GetControl("c_SDesc").GetValue();
+    form.SaveRecord(_spPageContextInfo.webAbsoluteUrl, "وظایف فرایند", item, callbackItem);
+}

@@ -1,0 +1,34 @@
+<script src="http://portal/sites/HRS/_layouts/15/BPC/PowerWebForms/js/jquery.min.js?v=2.57.0.0?v=1" type="text/javascript"></script>
+<!--Sagheh-ADD-->
+<script src="http://portal/sites/HRS/_layouts/15/BPC/PowerWebForms/js/jalaliDate.js?v=2.57.0.0?v=1" type="text/javascript"></script>
+<!-- Sagheh-EndAdd-->
+<script src="/_layouts/15/BPC/PowerWebForms/js/handsontable/pikaday.js?v=1"></script>
+<script src="/_layouts/15/BPC/PowerWebForms/js/handsontable/moment.js?v=1"></script>
+<script src="/_layouts/15/BPC/PowerWebForms/js/handsontable/ZeroClipboard.js?v=1"></script>
+<script src="/_layouts/15/BPC/PowerWebForms/js/handsontable/handsontable.min.js?v=1"></script>
+<script src="http://portal/sites/HRS/_layouts/15/BPC/PowerWebForms/js/kendo.web.js?v=1" type="text/javascript"></script>
+<script src="http://portal/sites/HRS/_layouts/15/BPC/PowerWebForms/js/kendo.calendarshamsi.js?v=1" type="text/javascript"></script>
+<script src="http://portal/sites/HRS/_layouts/15/BPC/PowerWebForms/js/kendo.datepickershamsi.js?v=1" type="text/javascript"></script>
+<script src="http://portal/sites/HRS/_layouts/15/BPC/PowerWebForms/Scripts/pf.min.js?v=1" type="text/javascript"></script>
+<script type="text/javascript">
+$(function() {
+
+    var menu_ul = $('.ms-core-listMenu-root > li > ul'),
+        menu_a  = $('.ms-core-listMenu-root > li > a');
+    
+    menu_ul.hide();
+
+    menu_a.click(function(e) {
+        e.preventDefault();
+        if(!$(this).hasClass('active')) {
+            menu_a.removeClass('active');
+            menu_ul.filter(':visible').slideUp('normal');
+            $(this).addClass('active').next().stop(true,true).slideDown('normal');
+        } else {
+            $(this).removeClass('active');
+            $(this).next().stop(true,true).slideUp('normal');
+        }
+    });
+
+});
+</script>

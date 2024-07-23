@@ -1,0 +1,29 @@
+<script>
+  $(document).ready(function(){
+    $('input[title="IC Number"]').css('width','350px');
+  });
+</script>
+
+<style type="text/css">
+.ms-formtable .ms-input, .ms-formtable Input
+{
+ width: 250px !important;
+
+}
+.ms-formtable Select
+{
+ width: 262px !important;
+}
+.ms-formlabel {
+    width: 600px;
+}
+.ms-formlabel nobr {
+    white-space: normal;
+}
+table#formTbl {
+    padding-right: 50px;
+}
+</style>
+
+
+
